@@ -1,0 +1,37 @@
+body{
+    -webkit-animation: bg 53s ease infinite;
+  animation: bg 53s ease infinite;
+    background: linear-gradient(135deg, #d38312, #a83279, #eecda3, #ef629f);
+  background-size: 800% 800%;
+  }
+  svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    max-width:100vh;
+  }
+  
+  @-webkit-keyframes bg {
+      0%{background-position:2% 0%}
+      50%{background-position:99% 100%}
+      100%{background-position:2% 0%}
+  }
+  @keyframes bg { 
+      0%{background-position:2% 0%}
+      50%{background-position:99% 100%}
+      100%{background-position:2% 0%}
+  }
+  
+  p.sign a{
+    color: #fff;
+    text-decoration: none;
+  }
+  p.sign{
+    position: absolute;
+    bottom: 0px;
+    font-size: .8em;
+    right: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
